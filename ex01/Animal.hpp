@@ -6,7 +6,7 @@
 /*   By: minsunki <minsunki@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/26 16:54:46 by minsunki          #+#    #+#             */
-/*   Updated: 2022/03/26 19:03:22 by minsunki         ###   ########seoul.kr  */
+/*   Updated: 2022/03/28 00:14:35 by minsunki         ###   ########seoul.kr  */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,7 @@ class Animal
 		const Animal	&operator=(const Animal &a);
 
 		virtual void	makeSound(void) const;
-		std::string	getType(void) const;
+		const std::string	&getType(void) const;
 };
 
 # endif

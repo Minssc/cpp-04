@@ -6,7 +6,7 @@
 /*   By: minsunki <minsunki@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/26 17:49:54 by minsunki          #+#    #+#             */
-/*   Updated: 2022/03/26 17:59:13 by minsunki         ###   ########seoul.kr  */
+/*   Updated: 2022/03/28 00:19:40 by minsunki         ###   ########seoul.kr  */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,9 +39,4 @@ const WrongCat	&WrongCat::operator=(const WrongCat &c)
 void	WrongCat::makeSound(void) const
 {
 	std::cout << "WrongCat goes WHAMEOW!" << std::endl;
-}
-
-std::string	WrongCat::getType(void) const
-{
-	return (type);
 }

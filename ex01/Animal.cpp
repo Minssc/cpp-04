@@ -6,7 +6,7 @@
 /*   By: minsunki <minsunki@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/26 16:57:37 by minsunki          #+#    #+#             */
-/*   Updated: 2022/03/26 17:13:57 by minsunki         ###   ########seoul.kr  */
+/*   Updated: 2022/03/28 00:14:43 by minsunki         ###   ########seoul.kr  */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,7 +40,7 @@ void	Animal::makeSound(void) const
 	std::cout << "animal default makeSound called" << std::endl;
 }
 
-std::string	Animal::getType(void) const
+const std::string	&Animal::getType(void) const
 {
 	return (type);
 }

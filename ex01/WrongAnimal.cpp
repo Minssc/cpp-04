@@ -6,7 +6,7 @@
 /*   By: minsunki <minsunki@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/26 17:44:54 by minsunki          #+#    #+#             */
-/*   Updated: 2022/03/26 17:56:52 by minsunki         ###   ########seoul.kr  */
+/*   Updated: 2022/03/28 00:19:21 by minsunki         ###   ########seoul.kr  */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,7 +41,7 @@ void	WrongAnimal::makeSound() const
 	std::cout << "WrongAnimal goes what" << std::endl;
 }
 
-std::string	WrongAnimal::getType(void) const
+const std::string	&WrongAnimal::getType(void) const
 {
 	return (type);
 }

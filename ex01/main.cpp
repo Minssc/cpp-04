@@ -6,7 +6,7 @@
 /*   By: minsunki <minsunki@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/26 17:09:50 by minsunki          #+#    #+#             */
-/*   Updated: 2022/03/27 14:20:20 by minsunki         ###   ########seoul.kr  */
+/*   Updated: 2022/03/28 00:18:42 by minsunki         ###   ########seoul.kr  */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,13 +46,14 @@ int	main(void)
 
 	Cat	*copycat = new Cat(*cat);
 	std::cout << "idea: " << copycat->getBrain()->getIdea(0) << std::endl;
+	delete cat;
 
 	Cat	*assigncat = new Cat();
 
-	*assigncat = *cat;
+	*assigncat = *copycat;
 	std::cout << "idea: " << assigncat->getBrain()->getIdea(0) << std::endl;
 
-	delete cat;
+	// delete cat;
 	delete copycat;
 	delete assigncat;
 
