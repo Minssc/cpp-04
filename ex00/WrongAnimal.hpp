@@ -6,7 +6,7 @@
 /*   By: minsunki <minsunki@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/26 17:25:43 by minsunki          #+#    #+#             */
-/*   Updated: 2022/03/26 17:52:25 by minsunki         ###   ########seoul.kr  */
+/*   Updated: 2022/03/28 00:12:25 by minsunki         ###   ########seoul.kr  */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,7 @@ class WrongAnimal
 		const WrongAnimal	&operator=(const WrongAnimal &a);
 
 		void	makeSound(void) const;
-		std::string		getType(void) const;
+		const std::string	&getType(void) const;
 };
 
 # endif
