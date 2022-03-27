@@ -6,7 +6,7 @@
 /*   By: minsunki <minsunki@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/26 16:57:37 by minsunki          #+#    #+#             */
-/*   Updated: 2022/03/27 14:24:47 by minsunki         ###   ########seoul.kr  */
+/*   Updated: 2022/03/28 00:20:29 by minsunki         ###   ########seoul.kr  */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,7 +40,7 @@ const Animal	&Animal::operator=(const Animal &a)
 // 	std::cout << "animal default makeSound called" << std::endl;
 // }
 
-std::string	Animal::getType(void) const
+const std::string	&Animal::getType(void) const
 {
 	return (type);
 }
