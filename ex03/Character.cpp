@@ -6,11 +6,10 @@
 /*   By: minsunki <minsunki@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/27 16:55:12 by minsunki          #+#    #+#             */
-/*   Updated: 2022/03/27 19:48:37 by minsunki         ###   ########seoul.kr  */
+/*   Updated: 2022/03/27 19:54:11 by minsunki         ###   ########seoul.kr  */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "AMateria.hpp"
 #include "Character.hpp"
 
 Character::Character(): _name("John Doe")

@@ -6,13 +6,12 @@
 /*   By: minsunki <minsunki@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/27 16:10:33 by minsunki          #+#    #+#             */
-/*   Updated: 2022/03/27 19:16:37 by minsunki         ###   ########seoul.kr  */
+/*   Updated: 2022/03/27 19:53:41 by minsunki         ###   ########seoul.kr  */
 /*                                                                            */
 /* ************************************************************************** */
 
 // #include "AMateria.hpp"
 #include "Ice.hpp"
-#include "ICharacter.hpp"
 #include <iostream>
 
 Ice::Ice(): AMateria("ice") {}

@@ -6,12 +6,11 @@
 /*   By: minsunki <minsunki@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/27 16:10:27 by minsunki          #+#    #+#             */
-/*   Updated: 2022/03/27 19:17:51 by minsunki         ###   ########seoul.kr  */
+/*   Updated: 2022/03/27 19:53:46 by minsunki         ###   ########seoul.kr  */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Cure.hpp"
-#include "ICharacter.hpp"
 #include <iostream>
 
 Cure::Cure(): AMateria("cure") {}

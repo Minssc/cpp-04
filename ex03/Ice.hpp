@@ -6,7 +6,7 @@
 /*   By: minsunki <minsunki@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/27 16:26:14 by minsunki          #+#    #+#             */
-/*   Updated: 2022/03/27 17:55:40 by minsunki         ###   ########seoul.kr  */
+/*   Updated: 2022/03/27 19:53:37 by minsunki         ###   ########seoul.kr  */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,7 @@
 # define __ICE_HPP__
 
 # include "AMateria.hpp"
+# include "ICharacter.hpp"
 
 class Ice: public AMateria
 {
