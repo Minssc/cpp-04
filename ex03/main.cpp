@@ -6,7 +6,7 @@
 /*   By: minsunki <minsunki@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/27 19:00:24 by minsunki          #+#    #+#             */
-/*   Updated: 2022/03/27 19:40:13 by minsunki         ###   ########seoul.kr  */
+/*   Updated: 2022/03/28 00:28:43 by minsunki         ###   ########seoul.kr  */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,5 +38,18 @@ int main()
 	delete me;
 	delete src;
 	
+	src = new MateriaSource();
+	src->learnMateria(new Ice());
+
+	me = new Character("me");
+	me->equip(src->createMateria("ice"));
+	me->equip(src->createMateria("whatisthismateria"));
+
+	bob = new Character("bob");
+
+	me->use(0, *bob);
+	me->use(1, *bob);
+	me->use(2, *bob);
+	me->use(4, *bob);
 	return 0;
 }
