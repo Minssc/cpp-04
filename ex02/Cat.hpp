@@ -6,7 +6,7 @@
 /*   By: minsunki <minsunki@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/26 17:14:44 by minsunki          #+#    #+#             */
-/*   Updated: 2022/03/27 14:04:47 by minsunki         ###   ########seoul.kr  */
+/*   Updated: 2022/03/28 13:08:14 by minsunki         ###   ########seoul.kr  */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,7 @@
 
 # include "Brain.hpp"
 # include "Animal.hpp"
+# include <string>
 
 class Cat: public Animal
 {
