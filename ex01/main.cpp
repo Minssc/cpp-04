@@ -6,7 +6,7 @@
 /*   By: minsunki <minsunki@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/26 17:09:50 by minsunki          #+#    #+#             */
-/*   Updated: 2022/03/28 00:18:42 by minsunki         ###   ########seoul.kr  */
+/*   Updated: 2022/03/29 12:17:46 by minsunki         ###   ########seoul.kr  */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,9 +36,6 @@ int	main(void)
 			animals[i] = new Dog();
 	}
 
-	for (int i = 0; i < N_ANIMALS; ++i)
-		delete animals[i];
-
 	const Cat	*cat = new Cat();
 
 	cat->setBrain(0, "I like cats");
@@ -56,6 +53,10 @@ int	main(void)
 	// delete cat;
 	delete copycat;
 	delete assigncat;
+
+
+	for (int i = 0; i < N_ANIMALS; ++i)
+		delete animals[i];
 
 	return (0);
 }
